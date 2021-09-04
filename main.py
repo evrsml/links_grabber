@@ -7,7 +7,7 @@ from bs4 import BeautifulSoup
 link = "https://www.kommersant.ru/rubric/"
 
 #list of 'rubric' types
-number = [2,3,4,5,6,7,8,9]
+number = [2,3,4,5,6,7,8,]
 for num in number:
     number = num
     response = requests.get(f'{link}{number}/').text
